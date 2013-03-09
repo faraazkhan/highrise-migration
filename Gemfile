@@ -22,6 +22,9 @@ end
 
 group :development do
   gem 'mysql'
+  gem 'debugger'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 gem 'jquery-rails'
@@ -29,7 +32,6 @@ gem 'highrise'
 gem 'carrierwave'
 gem 'pg'
 gem 'rubyzip'
-gem 'debugger'
 gem 'twitter-bootstrap-rails'
 gem 'therubyracer'
 gem 'curb'
