@@ -37,7 +37,22 @@ gem 'builder'
 gem 'awesome_print'
 gem 'rest-client'
 gem 'nokogiri'
-gem 'resque', :require => "resque/server"
+gem 'sidekiq'
+gem 'sinatra', require: false
+gem 'slim'
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'spork'
+  gem 'guard'
+  gem 'guard-bundler'
+  gem 'guard-rspec'
+  gem 'guard-spork'
+  gem 'foreman'
+  gem 'turn'
+  gem 'forgery'
+  gem 'shoulda-matchers'
+  gem 'factory_girl'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
