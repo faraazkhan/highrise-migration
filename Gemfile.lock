@@ -55,18 +55,10 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.4.0)
-    columnize (0.3.6)
     commonjs (0.2.6)
     connection_pool (1.0.0)
     curb (0.8.1)
     debug_inspector (0.0.2)
-    debugger (1.2.1)
-      columnize (>= 0.3.1)
-      debugger-linecache (~> 1.1.1)
-      debugger-ruby_core_source (~> 1.1.4)
-    debugger-linecache (1.1.2)
-      debugger-ruby_core_source (>= 1.1.1)
-    debugger-ruby_core_source (1.1.4)
     diff-lcs (1.2.1)
     erubis (2.7.0)
     execjs (1.4.0)
@@ -253,7 +245,6 @@ DEPENDENCIES
   carrierwave
   coffee-rails (~> 3.2.1)
   curb
-  debugger
   factory_girl_rails
   foreman
   forgery

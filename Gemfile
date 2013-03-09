@@ -22,7 +22,6 @@ end
 
 group :development do
   gem 'mysql'
-  gem 'debugger'
   gem 'better_errors'
   gem 'binding_of_caller'
 end
