@@ -1,4 +1,5 @@
-# Highrise Migration Tool [![Build Status](https://travis-ci.org/faraazkhan/highrise-migration.png)](https://travis-ci.org/faraazkhan/highrise-migration)
+== Highrise Migration Tool {<img src="https://travis-ci.org/faraazkhan/highrise-migration.png" />}[https://travis-ci.org/faraazkhan/highrise-migration]
+
 
 
 Highrise Migration Tool is a simple Rails application that can be used to transfer data from one Highrise Account
