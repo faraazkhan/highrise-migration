@@ -51,7 +51,7 @@ group :development, :test do
   gem 'turn'
   gem 'forgery'
   gem 'shoulda-matchers'
-  gem 'factory_girl'
+  gem 'factory_girl_rails'
   gem 'fuubar'
   gem 'simplecov'
   gem 'minitest'
