@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deal>
+  <name>#{name}</name>
+  <!-- optional fields -->
+  <party-id type="integer">#{party_id}</party-id>
+  <visible-to>Everyone</visible-to>
+  <group-id type="integer">#{group_id}</group-id>
+  <owner-id type="integer">#{owner_id}</owner-id>
+  <responsible-party-id type="integer">#{responsible_party_id}</responsible-party-id>
+  <category-id type="integer">#{category_id}</category-id>
+  <background>#{background}</background>
+  <currency>#{currency}</currency>
+  <price type="integer">#{price}</price>
+  <price-type>fixed</price-type>
+  <duration type="integer">#{duration}</duration>
+</deal>

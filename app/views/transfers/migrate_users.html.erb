@@ -1,0 +1,34 @@
+<%= form_for @transfer  do |f| %>
+<div class="page-header">
+  <h1><%=t '.title', :default => 'Create the following Users' %></h1>
+</div>
+You must create each of these accounts with exactly the same name and email (as shown here) in the target account. Once you have created those on the highrise site, come back to this page
+and refresh it. Make sure each user has both ID At Source Account and ID At Target Account before you hit 'Continue Transfer' to avoid unintended consequences.
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= 'Name' %></th>
+      <th><%= 'Email'  %></th>
+      <th><%= 'ID At Source Account'  %></th>
+      <th><%= 'ID At Target Account'  %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @transfer.users.each do |user| %>
+      <tr>
+        <td><%= user.name  %></td>
+        <td><%= user.email %></td>
+        <td><%= user.old_id %></td>
+        <td><%= user.new_id.nil? ? 'N/A' : user.new_id  %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<div class="form-actions">
+  <%= f.hidden_field :migrated_users, :value => 1 %>
+    <%= f.submit "Continue Transfer", :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                transfers_path, :class => 'btn' %>
+  </div>
+<% end %>

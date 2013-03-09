@@ -1,0 +1,191 @@
+<deal>
+<account-id type="integer">137082</account-id>
+<author-id type="integer">290491</author-id>
+<background>
+Due diligence on CRT before Aquiline's $200MM in the B/D
+</background>
+<category-id type="integer">2107993</category-id>
+<created-at type="datetime">2011-03-11T14:51:31Z</created-at>
+<currency>USD</currency>
+<duration type="integer">1</duration>
+<group-id type="integer" nil="true"/>
+<id type="integer">920461</id>
+<name>Aquiline - Investment in CRT (Due Diligence)</name>
+<owner-id type="integer" nil="true"/>
+<party-id type="integer">44272583</party-id>
+<price type="integer">200000</price>
+<price-type>fixed</price-type>
+<responsible-party-id type="integer" nil="true"/>
+<status>won</status>
+<status-changed-on type="date">2011-03-11</status-changed-on>
+<updated-at type="datetime">2011-03-11T17:18:24Z</updated-at>
+<visible-to>Everyone</visible-to>
+<category>
+<id type="integer">2107993</id>
+<name>MA</name>
+</category>
+<party>
+<author-id type="integer" nil="true"/>
+<background nil="true"/>
+<created-at type="datetime">2010-08-02T19:27:32Z</created-at>
+<group-id type="integer" nil="true"/>
+<id type="integer">44272583</id>
+<owner-id type="integer" nil="true"/>
+<type>Company</type>
+<updated-at type="datetime">2012-06-07T22:20:58Z</updated-at>
+<visible-to>Everyone</visible-to>
+<name>Aquiline</name>
+<avatar-url>
+http://asset0.37img.com/highrise/missing/avatar.gif?r=3
+</avatar-url>
+<tags type="array">
+<tag>
+<id type="integer">935689</id>
+<name>Asset Manager - Private Equity</name>
+</tag>
+<tag>
+<id type="integer">1253411</id>
+<name>Master Tracker</name>
+</tag>
+<tag>
+<id type="integer">1839471</id>
+<name>Investment Category - Insurance</name>
+</tag>
+</tags>
+<contact-data>...</contact-data>
+</party>
+<parties type="array">
+<party>
+<author-id type="integer">290491</author-id>
+<background nil="true"/>
+<company-id type="integer">44272583</company-id>
+<created-at type="datetime">2010-08-02T19:30:32Z</created-at>
+<first-name>Geoffrey O.</first-name>
+<group-id type="integer" nil="true"/>
+<id type="integer">44274374</id>
+<last-name>Kalish</last-name>
+<owner-id type="integer" nil="true"/>
+<title nil="true"/>
+<type>Person</type>
+<updated-at type="datetime">2012-01-13T23:04:56Z</updated-at>
+<visible-to>Everyone</visible-to>
+<company-name>Aquiline</company-name>
+<linkedin-url nil="true"/>
+<avatar-url>
+http://asset0.37img.com/highrise/missing/avatar.gif?r=3
+</avatar-url>
+<tags type="array">
+<tag>
+<id type="integer">935689</id>
+<name>Asset Manager - Private Equity</name>
+</tag>
+</tags>
+<contact-data>
+<addresses type="array">
+<address>
+<city>New York</city>
+<country>United States of America</country>
+<id type="integer">19960485</id>
+<location>Work</location>
+<state>NY</state>
+<street>535 Madison Avenue</street>
+<zip>10022</zip>
+</address>
+</addresses>
+<email-addresses type="array">
+<email-address>
+<address>gkalish@aquiline-llc.com</address>
+<id type="integer">20758922</id>
+<location>Work</location>
+</email-address>
+<email-address>
+<address>gk@aquiline-llc.com</address>
+<id type="integer">45385990</id>
+<location>Work</location>
+</email-address>
+</email-addresses>
+<instant-messengers type="array"/>
+<twitter-accounts type="array"/>
+<phone-numbers type="array">
+<phone-number>
+<id type="integer">37912234</id>
+<location>Work</location>
+<number>(212) 624-9535</number>
+</phone-number>
+<phone-number>
+<id type="integer">37912235</id>
+<location>Fax</location>
+<number>(212) 624-9510</number>
+</phone-number>
+</phone-numbers>
+<web-addresses type="array"/>
+</contact-data>
+</party>
+<party>
+<author-id type="integer">290491</author-id>
+<background>Assistant: June (212) 624-9521</background>
+<company-id type="integer">44272583</company-id>
+<created-at type="datetime">2010-08-02T19:30:32Z</created-at>
+<first-name>Mitchell M.</first-name>
+<group-id type="integer" nil="true"/>
+<id type="integer">44274373</id>
+<last-name>Leidner</last-name>
+<owner-id type="integer" nil="true"/>
+<title nil="true"/>
+<type>Person</type>
+<updated-at type="datetime">2011-04-01T14:20:35Z</updated-at>
+<visible-to>Everyone</visible-to>
+<company-name>Aquiline</company-name>
+<linkedin-url nil="true"/>
+<avatar-url>
+http://asset0.37img.com/highrise/missing/avatar.gif?r=3
+</avatar-url>
+<tags type="array">
+<tag>
+<id type="integer">935689</id>
+<name>Asset Manager - Private Equity</name>
+</tag>
+</tags>
+<contact-data>
+<addresses type="array">
+<address>
+<city>New York</city>
+<country>United States of America</country>
+<id type="integer">19960484</id>
+<location>Work</location>
+<state>NY</state>
+<street>535 Madison Avenue</street>
+<zip>10022</zip>
+</address>
+</addresses>
+<email-addresses type="array">
+<email-address>
+<address>mleidner@aquiline-llc.com</address>
+<id type="integer">20758921</id>
+<location>Work</location>
+</email-address>
+</email-addresses>
+<instant-messengers type="array"/>
+<twitter-accounts type="array"/>
+<phone-numbers type="array">
+<phone-number>
+<id type="integer">37912231</id>
+<location>Work</location>
+<number>(212) 624-9503</number>
+</phone-number>
+<phone-number>
+<id type="integer">37912232</id>
+<location>Mobile</location>
+<number>(917) 968-8492</number>
+</phone-number>
+<phone-number>
+<id type="integer">37912233</id>
+<location>Fax</location>
+<number>(212) 624-9510</number>
+</phone-number>
+</phone-numbers>
+<web-addresses type="array"/>
+</contact-data>
+</party>
+</parties>
+</deal>

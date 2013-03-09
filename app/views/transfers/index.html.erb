@@ -1,0 +1,30 @@
+<%- model_class = Transfer -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:source_url) %></th>
+      <th><%= model_class.human_attribute_name(:target_url) %></th>
+      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th><%= 'Delete all records'  %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @transfers.each do |transfer| %>
+      <tr>
+        <td><%= link_to transfer.id, transfer_path(transfer) %></td>
+        <td><%= transfer.source_url%></td>
+        <td><%= transfer.target_url %></td>
+        <td><%=l transfer.created_at %></td>
+        <td><%= link_to "Delete this transfer",transfer, :method => :delete, :confirm => 'Please make sure the migration is complete before deleting this record to avoid unintended consequences' %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_transfer_path,
+            :class => 'btn btn-primary' %>

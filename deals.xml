@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deal>
+  <account-id type="integer">137082</account-id>
+  <author-id type="integer">317566</author-id>
+  <background>
+Sentry has formed a NewCo, Abundant Clean Fuels. Premise is to take the excess natural gas being produced in the US, refine it to being super clean "drop-in fuel" and ship it to places where great price point.
+</background>
+  <category-id type="integer" nil="true"/>
+  <created-at type="datetime">2011-11-03T21:03:37Z</created-at>
+  <currency>USD</currency>
+  <duration type="integer">1</duration>
+  <group-id type="integer" nil="true"/>
+  <id type="integer">1453298</id>
+  <name>Abundant Clean Fuels</name>
+  <owner-id type="integer" nil="true"/>
+  <party-id type="integer">72371122</party-id>
+  <price type="integer" nil="true"/>
+  <price-type>fixed</price-type>
+  <responsible-party-id type="integer">290449</responsible-party-id>
+  <status>lost</status>
+  <status-changed-on type="date">2012-07-04</status-changed-on>
+  <updated-at type="datetime">2012-07-04T19:04:01Z</updated-at>
+  <visible-to>Everyone</visible-to>
+  <party>
+    <author-id type="integer" nil="true"/>
+    <background nil="true"/>
+    <created-at type="datetime">2011-05-25T13:58:41Z</created-at>
+    <group-id type="integer" nil="true"/>
+    <id type="integer">72371122</id>
+    <owner-id type="integer" nil="true"/>
+    <type>Company</type>
+    <updated-at type="datetime">2012-03-02T20:30:38Z</updated-at>
+    <visible-to>Everyone</visible-to>
+    <name>SFC Sentry Financial Corporation</name>
+    <avatar-url>
+http://asset0.37img.com/highrise/missing/avatar.gif?r=3
+</avatar-url>
+    <tags type="array">
+      <tag>
+        <id type="integer">1353623</id>
+        <name>Renewables - Tax Equity</name>
+      </tag>
+      <tag>
+        <id type="integer">1452732</id>
+        <name>Investment Bank</name>
+      </tag>
+    </tags>
+    <contact-data>
+      <addresses type="array"/>
+      <email-addresses type="array"/>
+      <instant-messengers type="array"/>
+      <twitter-accounts type="array"/>
+      <phone-numbers type="array"/>
+      <web-addresses type="array"/>
+    </contact-data>
+  </party>
+  <parties type="array"/>
+</deal>

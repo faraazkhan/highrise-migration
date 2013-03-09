@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  new_id: 1
+  old_id: 1
+  xml: MyText
+
+two:
+  name: MyString
+  new_id: 1
+  old_id: 1
+  xml: MyText
