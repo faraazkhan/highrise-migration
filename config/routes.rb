@@ -1,9 +1,11 @@
+require 'sidekiq/web'
 Highrise::Application.routes.draw do
   resources :transfers do
     member do
       get 'migrate_users'
     end
   end
+  mount Sidekiq::Web, at: "/sidekiq"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -55,7 +57,6 @@ Highrise::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
    root :to => 'transfers#index'
-   mount Resque::Server, :at => "/resque"
 
   # See how all your routes lay out with "rake routes"
 

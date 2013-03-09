@@ -43,7 +43,7 @@ class Transfer < ActiveRecord::Base
   def perform
     unless performed?
       %w[ company person deal deal_category task_category kase note task].each do |k|
-      Resque.enqueue(MigrationAssistant, self.id, k)
+      MigrationAssistant.perform_async(self.id, k)
       end
       self.update_attribute :performed, true
     end
