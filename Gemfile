@@ -52,6 +52,9 @@ group :development, :test do
   gem 'forgery'
   gem 'shoulda-matchers'
   gem 'factory_girl'
+  gem 'fuubar'
+  gem 'simplecov'
+  gem 'minitest'
 end
 
 # To use ActiveModel has_secure_password
