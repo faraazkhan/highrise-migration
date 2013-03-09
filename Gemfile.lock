@@ -261,6 +261,7 @@ DEPENDENCIES
   nokogiri
   pg
   rails (= 3.2.12)
+  rake
   rest-client
   rspec-rails
   rubyzip

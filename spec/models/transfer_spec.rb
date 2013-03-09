@@ -6,4 +6,11 @@ describe Transfer do
       it { should validate_presence_of(required_field) }
     end
   end
+
+  context "Relationships" do
+    [:people, :companies, :deal_categories, :task_categories, :deals, :users, :kases].each do |relationships|
+      it { should have_many(relationships) }
+    end
+  end
+
 end
