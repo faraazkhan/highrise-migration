@@ -58,5 +58,14 @@ module Highrise
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    #Test File Generators
+    config.generators do |g|
+      g.test_framework :rspec, :fixture_replacement => :factory_girl, :views => true, :helper => false
+      g.fixture_replacement :factory_girl, :dir => 'spec/factories'
+      g.stylesheets false
+      g.javascripts false
+      g.helper false
+    end
   end
 end
