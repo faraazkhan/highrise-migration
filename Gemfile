@@ -55,6 +55,7 @@ group :development, :test do
   gem 'fuubar'
   gem 'simplecov'
   gem 'minitest'
+  gem 'rake'
 end
 
 # To use ActiveModel has_secure_password
