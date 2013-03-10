@@ -2,6 +2,7 @@ class MigrationAssistant
   include Sidekiq::Worker
   sidekiq_options queue: "migration"
   sidekiq_options retry: false
+  sidekiq_options :failures => true
 
   def perform(transfer_id, class_name)
     @transfer = Transfer.find(transfer_id)

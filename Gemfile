@@ -39,6 +39,7 @@ gem 'awesome_print'
 gem 'rest-client'
 gem 'nokogiri'
 gem 'sidekiq'
+gem 'sidekiq-failures'
 gem 'sinatra', require: false
 gem 'slim'
 group :development, :test do
