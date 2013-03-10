@@ -1,4 +1,4 @@
 :verbose: false
-:concurrency: 6
+:concurrency: 7
 :queues:
-  - [migration, 6]
+  - [migration, 7]
