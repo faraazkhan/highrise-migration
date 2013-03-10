@@ -54,10 +54,15 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'factory_girl_rails'
   gem 'fuubar'
-  gem 'simplecov'
+  gem 'simplecov', :require => false
   gem 'minitest'
   gem 'rake'
+  gem 'rb-fsevent', '~> 0.9'
+  gem 'growl'
+  gem 'vcr'
 end
+
+  gem 'webmock', :group => :test
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

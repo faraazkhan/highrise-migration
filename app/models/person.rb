@@ -65,7 +65,7 @@ class Person < ActiveRecord::Base
         xml.title x(original.title)
         xml.send(:'company-name', x(original.company_name)) if original.company_name
         xml.background x(original.background) if original.background
-        xml.linkedin_url original.linkedin_url
+        xml.send(:'linkedin-url',  x(original.linkedin_url))
         xml.send(:'visible-to', original.visible_to)
         xml.send(:'contact-data'){
           # Format email addresses
