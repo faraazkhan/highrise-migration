@@ -29,7 +29,6 @@ class MigrationAssistant
   end
 
   def import_companies
-    return nil
     self.load_credentials
     companies = Highrise::Company.find_all_across_pages(:params => {:id => ''})
     companies.each do |com|

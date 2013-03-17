@@ -6,14 +6,14 @@ describe Person do
     let(:resource_location) { 'people.xml' }
     let(:target_url_regex) {/.*\/#{resource_location}/}
     it "should point to the correct resource" do
-      company.target_url.should =~ target_url_regex
+      person.target_url.should =~ target_url_regex
     end
     it "should point to the correct domain" do
-      company.target_url.gsub("/#{resource_location}",'').should == company.transfer.target_url
+      person.target_url.gsub("/#{resource_location}",'').should == person.transfer.target_url
     end
   end
 
-  context 'target form', :focus do
+  context 'target form' do
     let(:person) { FactoryGirl.build(:person) }
     let(:transfer) { FactoryGirl.build(:transfer) }
     before(:all) do

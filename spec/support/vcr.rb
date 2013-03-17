@@ -7,6 +7,6 @@ VCR.configure do |c|
    #c.debug_logger = File.open('vcr_log.log', 'w')
 end
 
-Rspec.configure do |c|
+RSpec.configure do |c|
   c.treat_symbols_as_metadata_keys_with_true_values = true
 end
